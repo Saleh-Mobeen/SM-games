@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SM Games</title>
+    <style>
+        /* Basic styling */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            animation: slideDown 1s ease-out;
+        }
+        h1 {
+            margin: 0;
+            font-size: 36px;
+            text-transform: uppercase;
+        }
+        section {
+            padding: 20px;
+            animation: fadeIn 1s ease-out;
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            animation: slideUp 1s ease-out;
+        }
+        /* Game section styling */
+        .game {
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 600px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 1s ease-out;
+        }
+        .game h3 {
+            margin-top: 0;
+            font-size: 24px;
+            color: #333;
+        }
+        .game p {
+            margin-bottom: 0;
+            font-size: 18px;
+            color: #666;
+        }
+
+        /* Button styling */
+        .button {
+            display: inline-block;
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 18px;
+            margin: 10px 0;
+            cursor: pointer;
+            border-radius: 8px;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .button:hover {
+            background-color: #45a049;
+            transform: translateY(-3px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Keyframe animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideDown {
+            from {
+                transform: translateY(-50%);
+            }
+            to {
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes slideUp {
+            from {
+                transform: translateY(50%);
+            }
+            to {
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>SM Games</h1>
+</header>
+
+<section>
+    <h2>Welcome to SM Games</h2>
+    <p>This is a simple HTML template for your website. Below you can find our games:</p>
+
+    <!-- Game Section -->
+    <div class="game">
+        <h3>Cookie Smasher By SM</h3>
+        <p>Welcome to "Cookie Smasher" by SM Games! Click on cookies to earn points and unlock upgrades to enhance your clicking power. Swipe, tap, and smash your way to cookie greatness as you watch your cookie count soar. How many cookies can you collect? Play now and find out!</p>
+        <a href="https://drive.google.com/uc?id=1QZ1jzQlqAqOBOCxnvgRFYVm2HJ91U9kU&export=download" class="button" download>Download "Cookie Smasher" NOW!</a>
+    </div>
+
+    <div class="game">
+        <h3>4th Mars: A Platformer Adventure</h3>
+        <p>Embark on an interstellar journey in "4th Mars," a thrilling platformer game set in the distant future where humanity has colonized the fourth planet from the sun. As an intrepid explorer, you'll navigate treacherous landscapes, uncover ancient secrets, and confront extraterrestrial dangers in a quest to unlock the mysteries of Mars.</p>
+        <a href="https://drive.google.com/uc?export=download&id=1zoKNQPjOzhBSZ0I9PGI6EdlnUwpcE-68" class="button" download>Download "4th Mars" NOW!</a>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 SM Games. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

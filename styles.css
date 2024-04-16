@@ -1,0 +1,176 @@
+      /* Basic styling */
+      body {
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          margin: 0;
+          padding: 0;
+          background-color: #f5f5f5;
+          color: #333;
+      }
+
+      header {
+          background-color: #333;
+          color: #fff;
+          padding: 20px 0;
+          text-align: center;
+          animation: slideDown 1s ease-out;
+      }
+
+      h1 {
+          margin: 0;
+          font-size: 36px;
+          text-transform: uppercase;
+      }
+
+      section {
+          padding: 20px;
+          animation: fadeIn 1s ease-out;
+          text-align: center;
+      }
+
+      footer {
+          background-color: #333;
+          color: #fff;
+          padding: 10px 0;
+          text-align: center;
+          position: fixed;
+          bottom: 0;
+          width: 100%;
+          animation: slideUp 1s ease-out;
+      }
+
+      /* Game section styling */
+      .game {
+          border: 1px solid #ccc;
+          border-radius: 10px;
+          padding: 20px;
+          margin: 20px auto;
+          max-width: 600px;
+          background-color: #fff;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          animation: fadeIn 1s ease-out;
+      }
+
+      .game h3 {
+          margin-top: 0;
+          font-size: 24px;
+          color: #333;
+      }
+
+      .game p {
+          margin-bottom: 0;
+          font-size: 18px;
+          color: #666;
+      }
+
+
+      /* Button styling */
+      .button {
+          display: inline-block;
+          background-color: #4CAF50;
+          border: none;
+          color: white;
+          padding: 10px 20px;
+          text-align: center;
+          text-decoration: none;
+          font-size: 18px;
+          margin: 10px 0;
+          cursor: pointer;
+          border-radius: 8px;
+          transition: transform 0.2s ease, box-shadow 0.2s ease;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+
+      .button:hover {
+          background-color: #45a049;
+          transform: translateY(-3px);
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      }
+
+
+      .download {
+          transition: transform 0.2s ease, box-shadow 0.2s ease;
+          display: inline-block;
+          background-color: #4CAF50;
+          border: none;
+          color: white;
+          padding: 10px 20px;
+          text-align: center;
+          text-decoration: none;
+          font-weight: bold;
+          font-size: 18px;
+          margin: 10px 0;
+          cursor: pointer;
+          border-radius: 5px;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+
+      .download:hover {
+          background-color: #45a049;
+          transform: translateY(-3px);
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      }
+
+
+
+      /* Keyframe animations */
+      @keyframes fadeIn {
+          from {
+              opacity: 0;
+          }
+
+          to {
+              opacity: 1;
+          }
+      }
+
+      @keyframes slideDown {
+          from {
+              transform: translateY(-50%);
+          }
+
+          to {
+              transform: translateY(0);
+          }
+      }
+
+      @keyframes slideUp {
+          from {
+              transform: translateY(50%);
+          }
+
+          to {
+              transform: translateY(0);
+          }
+      }
+
+      /*  Image styling  */
+      .img {
+          width: 200px;
+          margin: 20px;
+          border: hsla(0, 0%, 0%, 0.5) solid;
+          border-radius: 10px;
+          margin-top: auto;
+          margin-bottom: 10px;
+          transition: transform 0.2s ease, box-shadow 0.3s ease;
+      }
+
+      .img:hover {
+          transform: translateY(-3px);
+          box-shadow: 5px 2px 10px black;
+          cursor: pointer;
+      }
+
+      /* game page  */
+      .gamePage {
+          font-size: 20px;
+          text-align: left;
+          margin: 15px;
+          padding: 15px;
+          padding-bottom: 100px;
+          color: black;
+          border: black solid;
+          border-width: 1px;
+          background-color: #eee;
+          border-radius: 5px;
+          box-shadow: 0px 0px 5px black;
+      }

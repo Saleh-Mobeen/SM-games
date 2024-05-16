@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback | SMgames</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <script>
+        var urlParams = new URLSearchParams(window.location.search);
+        var game = urlParams.get('a');
+    </script>
+
+    <h4>Select your E-mail for Feedback</h4>
+    <div class="game">
+        <div id="mail">
+            <button class="mailSelect" onclick="gmail(game)">Gmail</button><br>
+            <button class="mailSelect" onclick="outlook()">Outlook</button><br>
+            <button class="mailSelect" onclick="yahoo()">Yahoo mail</button>
+        </div>
+    </div>
+
+    <script src="feedback.js"></script>
+</body>
+
+</html>

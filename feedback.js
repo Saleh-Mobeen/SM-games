@@ -43,6 +43,6 @@ window.open(gmailComposeLink);
   }
 
   function warn() {
-    window.alert("Please note: To ensure that your feedback reaches me accurately, please do not modify the subject or recipient fields when composing your email. Your feedback is important to us, and we appreciate your cooperation.If you are having trouble opening you Email, allow pop=ups for this page. Thank you!")
+    window.alert("Please note: To ensure that your feedback reaches me accurately, please do not modify the subject or recipient fields when composing your email. Your feedback is important to us, and we appreciate your cooperation. If you are having trouble opening your Email, then allow pop=ups for this site. Thank you!")
     
   }
